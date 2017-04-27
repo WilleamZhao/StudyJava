@@ -3,23 +3,23 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.sourcod</groupId>
-  <artifactId>study</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  <packaging>jar</packaging>
-
-  <name>study</name>
+  <artifactId>sourcod</artifactId>
+  <version>1.0.0</version>
+  <packaging>pom</packaging>
   <url>http://maven.apache.org</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
-  <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-      <scope>test</scope>
-    </dependency>
-  </dependencies>
+  <modules>
+    <module>sourcod-web</module>
+    <module>sourcod-service</module>
+    <module>sourcod-dao</module>
+    <module>sourcod-facade</module>
+    <module>sourcod-action</module>
+    <module>sourcod-util</module>
+    <module>sourcod-model</module>
+  </modules>
+
 </project>
