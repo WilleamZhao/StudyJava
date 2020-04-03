@@ -28,7 +28,7 @@
         <!-- mybatis -->
         <mybatis.version>3.2.8</mybatis.version>
         <mybatis-spring.version>1.3.0</mybatis-spring.version>
-        <jackson.version>2.8.4</jackson.version>
+        <jackson.version>2.10.3</jackson.version>
     </properties>
 
     <dependencies>
